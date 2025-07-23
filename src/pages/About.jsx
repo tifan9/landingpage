@@ -1,4 +1,7 @@
 import React from 'react';
+
+import { RiStackLine } from "react-icons/ri";
+
 const featuresLeft = [
   { title: 'Creative Space' },
   { title: 'High Speed Wifi' },
@@ -13,9 +16,9 @@ const featuresRight = [
 
 const FeatureCard = ({ title }) => (
   <div className="bg-teal-50 p-7 rounded-sm shadow-md flex flex-col items-center text-center">
-    <div className="bg-primaryColor-50 text-white p-3 rounded-full mb-4">
-      {/* Placeholder icon */}
-        <img src='../src/assets/stack-965.png'/>
+    <div className="bg-primaryColor-50 text-black p-3 rounded-full mb-4">
+        {/* <img src='../src/assets/stack-965.png'/> */}
+        <RiStackLine size={30}/>
     </div>
     <h3 className="font-semibold">{title}</h3>
     <p className="text-sm text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
