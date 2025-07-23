@@ -56,7 +56,7 @@ const Contact = () => {
   }
 
   return (
-    <div className="max-w-7xl mx-auto px-6 py-16 grid grid-cols-1 lg:grid-cols-2 gap-12 items-start relative">
+    <div id="contact" className="max-w-7xl mx-auto px-6 py-16 grid grid-cols-1 lg:grid-cols-2 gap-12 items-start relative">
       <div className="absolute inset-0 opacity-10 pointer-events-none">
         <img
           src="https://cdn.vectorstock.com/i/500p/86/48/world-map-on-transparent-background-vector-44408648.jpg"

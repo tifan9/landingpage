@@ -5,6 +5,7 @@ const Welcome = () => {
     return (
         <>
             <div 
+            id="home"
                 className='h-[600px] flex flex-col items-center justify-center'
                 style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../src/assets/landing-img.jpg)`, backgroundSize: 'cover', backgroundPosition: 'center' }}
             >

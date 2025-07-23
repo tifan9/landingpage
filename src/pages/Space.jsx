@@ -28,7 +28,7 @@ const Space = () => {
 
     return (
         <>
-            <div className='flex flex-col items-center justify-center text-center px-7 py-12 max-w-4xl mx-auto'>
+            <div id="space" className='flex flex-col items-center justify-center text-center px-7 py-12 max-w-4xl mx-auto'>
                 <h1 className='text-3xl font-bold text-gray-800 mb-4'>We Offer creative working environment</h1>
                 <p className='text-gray-600'>Find your perfect workspace. Choose from versatile options tailored to your needs.</p>
             </div>

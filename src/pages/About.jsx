@@ -24,7 +24,7 @@ const FeatureCard = ({ title }) => (
 const About = () => {
   return (
     <>
-      <div className="flex flex-col lg:flex-row items-center justify-center px-7 py-12 max-w-7xl mx-auto">
+      <div id="about" className="flex flex-col lg:flex-row items-center justify-center px-7 py-12 max-w-7xl mx-auto">
         <div className="flex flex-col items-center justify-center text-center lg:text-left lg:items-start flex-1">
           <h1 className="text-primaryColor-50 text-md">About Us</h1>
           <h1 className="font-bold py-3 text-3xl lg:text-4xl">
