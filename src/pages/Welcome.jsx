@@ -12,7 +12,7 @@ const Welcome = () => {
                 <div className="w-3/4 max-w-4xl text-white flex flex-col items-center justify-center px-7 py-7 text-center">
                     <h1 className="text-xl">The Best Workplace in Kigali</h1>
                     <h1 className='text-3xl font-bold'>
-                        <span className='text-primaryColor-50'>Professional</span>, Creative,
+                        <span className='text-primaryColor-50  '>Professional</span>, Creative,
                     </h1>
                     <h1 className='text-3xl font-bold'>
                         Flexible, Scalable <span className='text-primaryColor-50'>Workspace</span>
